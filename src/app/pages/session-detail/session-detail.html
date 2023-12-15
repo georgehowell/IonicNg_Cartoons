@@ -27,9 +27,11 @@
   </div>
 
   <ion-list>
-    <ion-item (click)="sessionClick('watch')" button>
+
+    <ion-item (click)="setOpen(true)" class="modal" button>
       <ion-label color="primary">Watch</ion-label>
     </ion-item>
+
     <ion-item (click)="sessionClick('mark as unwatched')" button>
       <ion-label color="primary">Mark as Unwatched</ion-label>
     </ion-item>
@@ -41,4 +43,32 @@
       <ion-label color="primary">Leave Feedback</ion-label>
     </ion-item>
   </ion-list>
+
+
+
+  <ion-modal [isOpen]="isModalOpen" class="modal">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>{{session.videoTitle}}</ion-title>
+          <ion-buttons slot="end">
+            <ion-button (click)="setOpen(false)">
+              <ion-icon name="close"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <video width="100%" height="auto" controls autoplay="true">
+          <source src="{{session.videoLink1}}" type="video/mp4">
+          <source src="{{session.videoLink2}}" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+        <p>{{session.videoText}}</p>
+
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+
 </ion-content>

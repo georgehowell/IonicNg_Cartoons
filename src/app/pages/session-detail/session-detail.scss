@@ -84,3 +84,17 @@
 h1 {
   margin: 0;
 }
+
+ion-modal {
+  height: 90vh;
+  ion-title {
+    padding: 0 0 0 7px;
+    text-align: left;
+  }
+  ion-icon[name="close"] {
+    border-radius: 20px;
+    background-color: #ccc;
+  }
+  video {max-height: 100%;}
+}
+
