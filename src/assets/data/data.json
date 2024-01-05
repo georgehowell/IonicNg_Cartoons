@@ -8,11 +8,11 @@
           "sessions": [
             {
               "name": "Peppa Pig",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
+              "duration": "11m 20s",
+              "ageGroup": "5 to 7 years",
               "speakerNames": ["Astley Baker Davies"],
               "location": "London",
-              "description": "Led by a boy named Ryder, a team of six playful rescue dogs use their individual talents to protect the seaside town of Adventure Bay. The pups are often joined by their friends: Cap'n Turbot, Robo-Dog, Everest, and Tracker.",
+              "description": "Peppa and the family are going on holiday. Let's see where they go and their adventures ahead",
               "videoTitle": "Christmas Holidays Fun with Peppa Pig",
               "videoText" : "Peppa Pig Official Family Kids Cartoon.",
               "videoLink1" : "../../../assets/mp4/PeppaPig.mp4",
@@ -25,8 +25,8 @@
               "location": "Adventure Bay, Undine Harbour, South Georgia.",
               "description": "This captivating animated series centers around Ryder and his team of rescue pups. It has engaging storylines and straightforward language, making it an ideal choice for young learners.",
               "speakerNames": ["Keith Chapman • Scott Kraft"],
-              "timeStart": "9:30 am",
-              "timeEnd": "9:45 am",
+              "duration": "9:30 am",
+              "ageGroup": "9:45 am",
               "tracks": ["Cartoon"],
               "id": "2"
             },
@@ -35,8 +35,8 @@
               "location": "Manhattan, New York City",
               "description": "Sesame Street is an American educational children's television series that combines live-action, sketch comedy, animation and puppetry.",
               "speakerNames": ["Kermit the Frog, Miss Piggy, Big Bird, Cookie Monster"],
-              "timeStart": "9:45 am",
-              "timeEnd": "10:00 am",
+              "duration": "9:45 am",
+              "ageGroup": "10:00 am",
               "tracks": ["Cartoon"],
               "id": "3"
             },
@@ -45,8 +45,8 @@
               "location": "Elwood City",
               "description": "Bespectacled aardvark Arthur Read demonstrates to kids how to deal with such childhood traumas and challenges as homework, teachers and bullies. He also has to contend with his sisters, but loves playing with his friends: tomboy Francine, foodie and best pal Buster, supersmart Brain, rich girl Muffy and geography expert Sue Ellen.",
               "speakerNames": ["Raymond Fabi"],
-              "timeStart": "9:15 am",
-              "timeEnd": "9:30 am",
+              "duration": "9:15 am",
+              "ageGroup": "9:30 am",
               "tracks": ["Cartoon"],
               "id": "4"
             },
@@ -55,8 +55,8 @@
               "location": "N.Y.C.",
               "description": "Coco the monkey is curious and sets out on adventures with his friends.",
               "speakerNames": ["Margret and H.A. Rey"],
-              "timeStart": "10:00 am",
-              "timeEnd": "10:15 am",
+              "duration": "10:00 am",
+              "ageGroup": "10:15 am",
               "tracks": ["Cartoon"],
               "id": "5"
             },
@@ -65,8 +65,8 @@
               "location": "The Lost City of Gold",
               "description": "Dora's bilingual journeys provide a lively blend of English (and Spanish) vocabulary. The interactive episodes engage young learners, making the language-learning process enjoyable and memorable.",
               "speakerNames": ["Nickelodeon"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
+              "duration": "10:15 am",
+              "ageGroup": "10:30 am",
               "tracks": ["Cartoon"],
               "id": "6"
             }
@@ -81,8 +81,8 @@
               "location": "Springfiled, Oregon",
               "description": "The Simpson family provides a fascinating look into American culture, humor, and daily life. The dialogues are witty, and the range of characters offers diverse speech patterns and vocabulary",
               "speakerNames": ["Matt Groening"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
+              "duration": "10:15 am",
+              "ageGroup": "10:30 am",
               "tracks": ["Cartoon"],
               "id": "7"
             },
@@ -91,8 +91,8 @@
               "location": "Bikini Bottom",
               "description": "Set in the underwater city of Bikini Bottom, this series revolves around the optimistic sponge, SpongeBob, and his friends. The humorous scenarios, combined with the unique characters, introduce learners to various idioms, slang, and varied vocabulary.",
               "speakerNames": ["Stephen Hillenburg"],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
+              "duration": "10:45 am",
+              "ageGroup": "11:00 am",
               "tracks": ["Cartoon"],
               "id": "8"
             },
@@ -101,8 +101,8 @@
               "location": "Middleton",
               "description": "This action-packed cartoon follows the adventures of a high school girl who saves the world in her spare time. The series combines typical teenage dialogues with adventure lingo, giving learners a balanced mix of everyday and specialized vocabulary.",
               "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-              "timeStart": "11:30 am",
-              "timeEnd": "11:50 am",
+              "duration": "11:30 am",
+              "ageGroup": "11:50 am",
               "tracks": ["Cartoon"],
               "id": "9"
             }
@@ -117,8 +117,8 @@
               "location": "Rustvale, Pennsylvania",
               "description": "This animated series follows a dysfunctional American family in the 1970s. It combines raw humor, cultural references, and authentic dialogue, offering a vivid snapshot of suburban life.",
               "speakerNames": ["Bill Burr"],
-              "timeStart": "11:00 am",
-              "timeEnd": "11:45 am",
+              "duration": "11:00 am",
+              "ageGroup": "11:45 am",
               "tracks": ["Cartoon"],
               "id": "10"
             },
@@ -127,8 +127,8 @@
               "location": "Seattle, Washington",
               "description": "This cartoon is a linguistic challenge due to its multifaceted storyline. Its unique blend of humor and science fiction makes it an excellent pick for learners looking to expand their English comprehension.",
               "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-              "timeStart": "11:30 am",
-              "timeEnd": "12:00 pm",
+              "duration": "11:30 am",
+              "ageGroup": "12:00 pm",
               "tracks": ["Cartoon"],
               "id": "11"
             },
@@ -137,8 +137,8 @@
               "location": "Los Angeles",
               "description": "The plots in this animated series feature existentialism and personal struggles intertwined with a complex narrative. It uses advanced English, making it perfect for learners aiming for proficiency.",
               "speakerNames": ["Raphael Bob-Waksberg"],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:00 pm",
+              "duration": "12:00 pm",
+              "ageGroup": "1:00 pm",
               "tracks": ["Cartoon"],
               "id": "12"
             }

@@ -52,7 +52,7 @@
       "debug",
       "info",
       "time",
-      "timeEnd",
+      "ageGroup",
       "trace"
     ],
     "no-empty": false,

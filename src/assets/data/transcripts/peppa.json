@@ -1,0 +1,76 @@
+{
+  "Chapter1": [
+    {
+      "scene1": {
+        "Peppa1": "Flying on Holiday",
+        "Voiceover1": "Peppa and George are going on holiday. They are packing their bags",
+        "Daddy1": "You can't pack everything ",
+        "Peppa2": "But we need to take all our toys daddy",
+        "Daddy2": "just take the important ones okay",
+        "Peppa3": "I'll take teddy and george can take",
+        "George1": "dinosaur",
+        "Voiceover2": "mummy pig is packing a big bag for the holiday",
+        "Daddy3": "wow. that'st a lot of stuff mummy pig. Are you sure we need it all?",
+        "Mummy1": "yes. it's all very important",
+        "Daddy4": "okay"
+      },
+      "scene2": {
+        "Voiceover": "it is Susie Sheep",
+        "Susie1": "hello peppa do you want to play?",
+        "Peppa1": "i can't play today susie. i'm going on holiday",
+        "Susie2": "oh. where are you going?",
+        "Peppa3": "i don't know. somewhere where there's holidays",
+        "Susie3": "Nehhh. that sounds nice"
+      },
+      "scene3": {
+        "Peppa1": "granny and grandpa! Why are you here",
+        "Grandpa": "we're here for goldie the fish ",
+        "Grandma": "we're looking after her while you're on holiday",
+        "Mummy1": "here's goldie. ",
+        "Peppa2": "don't feed her too much granny ",
+        "Mummy2": "okay peppa",
+        "Voiceover": "it is mr bull in his taxi. he is taking peppa and her family to the airport",
+        "Mr Bull": "hello daddy pig. let me take that bag for you. Wow. that's heavy. Are you sure you need everything in here?",
+        "Mummy3": "yes. it's all very important",
+        "Everyone": "bye bye"
+      },
+      "scene4": {
+        "Voiceover1": "this is the airport",
+        "Daddy1": "goodbye",
+        "Mr Bull": "have a lovely holiday",
+        "Checkin Assistant1": "Tickets please ",
+        "Mummy1": "here they are ",
+        "Checkin Assistant2": "any bags?",
+        "Daddy2": "yes. i'm afraid this one's a bit heavy ",
+        "Checkin Assistant3": "don't worry. just pop it on the scales... Anything valuable in it?",
+        "Daddy3": "no",
+        "Checkin Assistant4": "any more?",
+        "Peppa1": "yes",
+        "Checkin Assistant5": "you can take those little bags on the plane with you. just join the queue over there",
+        "Voiceover2": "this is the x-ray machine ",
+        "Peppa2": "what's this daddy?",
+        "Daddy4": "it's a machine that looks inside things",
+        "Security": "put your bags on here please",
+        "Peppa3": "look it's my bag with teddy inside. that's magic",
+        "Voiceover3": "this is the aeroplane that will take peppa and her family on holiday ",
+        "George": "airplane",
+        "Voiceover4": "george loves aeroplanes",
+        "Airhostess": "welcome aboard. we hope you enjoy your flight with us today",
+        "Peppa4": "can i sit next to the window?",
+        "Daddy5": "of course peppa",
+        "Mummy2": "yes george. you can sit next to a window too"
+      },
+      "scene5": {
+      
+      }
+    }
+  ],
+  "Chapter3": [
+    {
+      "scene1": {
+
+      }
+    }
+  ]
+
+}

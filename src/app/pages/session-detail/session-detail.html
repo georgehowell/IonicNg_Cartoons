@@ -21,7 +21,7 @@
     <span *ngFor="let track of session?.tracks" [class]="'session-track-'+track.toLowerCase()">{{track}}</span>
     <p>{{session.description}}</p>
     <ion-text color="medium">
-      {{session.timeStart}} &ndash; {{session.timeEnd}}
+      {{session.duration}} &nbsp; &mdash; &nbsp; {{session.ageGroup}}
       <br /> {{session.location}}
     </ion-text>
   </div>
@@ -32,12 +32,23 @@
       <ion-label color="primary">Watch</ion-label>
     </ion-item>
 
-    <ion-item (click)="sessionClick('comprehensionQuiz')" button>
-      <ion-label color="primary">Comprehension Quiz</ion-label>
-    </ion-item>
-    <ion-item (click)="sessionClick('results')" button>
-      <ion-label color="primary">Results</ion-label>
-    </ion-item>
+
+    <ion-accordion-group>
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>Read along</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Read along</div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Quiz</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Quiz</div>
+      </ion-accordion>
+    </ion-accordion-group>
+
+
     <ion-item (click)="sessionClick('leaderboard')" button>
       <ion-label color="primary">Leaderboard</ion-label>
     </ion-item>
