@@ -20,24 +20,24 @@ import { UserData } from './providers/user-data';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Schedule',
+      title: 'Cartoons',
       url: '/app/tabs/schedule',
-      icon: 'calendar'
+      icon: 'logo-youtube'
     },
     {
-      title: 'Speakers',
+      title: 'Friends',
       url: '/app/tabs/speakers',
-      icon: 'people'
+      icon: 'happy-outline'
     },
     {
-      title: 'Map',
+      title: 'Results',
       url: '/app/tabs/map',
-      icon: 'map'
+      icon: 'checkbox-outline'
     },
     {
-      title: 'About',
+      title: 'Leaderboard',
       url: '/app/tabs/about',
-      icon: 'information-circle'
+      icon: 'podium-outline'
     }
   ];
   loggedIn = false;
@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
     private storage: Storage,
     private userData: UserData,
     private swUpdate: SwUpdate,
-    private toastCtrl: ToastController,
+    private toastCtrl: ToastController
   ) {
     this.initializeApp();
   }
