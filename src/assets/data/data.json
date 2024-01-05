@@ -13,6 +13,10 @@
               "speakerNames": ["Astley Baker Davies"],
               "location": "London",
               "description": "Led by a boy named Ryder, a team of six playful rescue dogs use their individual talents to protect the seaside town of Adventure Bay. The pups are often joined by their friends: Cap'n Turbot, Robo-Dog, Everest, and Tracker.",
+              "videoTitle": "Christmas Holidays Fun with Peppa Pig",
+              "videoText" : "Peppa Pig Official Family Kids Cartoon.",
+              "videoLink1" : "../../../assets/mp4/PeppaPig.mp4",
+              "videoLink2" : "../../../assets/mp4/PeppaPig.ogg",
               "tracks": ["Cartoon"],
               "id": "1"
             },

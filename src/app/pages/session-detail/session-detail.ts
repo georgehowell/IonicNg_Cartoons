@@ -4,6 +4,7 @@ import { ConferenceData } from '../../providers/conference-data';
 import { ActivatedRoute } from '@angular/router';
 import { UserData } from '../../providers/user-data';
 
+
 @Component({
   selector: 'page-session-detail',
   styleUrls: ['./session-detail.scss'],
@@ -19,6 +20,12 @@ export class SessionDetailPage {
     private userProvider: UserData,
     private route: ActivatedRoute
   ) { }
+
+  isModalOpen = false;
+
+  setOpen(isOpen: boolean) {
+    this.isModalOpen = isOpen;
+  }
 
   ionViewWillEnter() {
     this.dataProvider.load().subscribe((data: any) => {
