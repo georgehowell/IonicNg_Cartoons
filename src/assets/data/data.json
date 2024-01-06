@@ -9,15 +9,16 @@
             {
               "name": "Peppa Pig",
               "duration": "11m 20s",
-              "ageGroup": "5 to 7 years",
+              "ageGroup": "4 to 7 years",
               "speakerNames": ["Astley Baker Davies"],
-              "location": "London",
+              "location": "England",
               "description": "Peppa and the family are going on holiday. Let's see where they go and their adventures ahead",
               "videoTitle": "Christmas Holidays Fun with Peppa Pig",
               "videoText" : "Peppa Pig Official Family Kids Cartoon.",
               "videoLink1" : "../../../assets/mp4/PeppaPig.mp4",
               "videoLink2" : "../../../assets/mp4/PeppaPig.ogg",
               "tracks": ["Cartoon"],
+              "transcriptUrl": "../../assets/data/transcripts/peppa.html",
               "id": "1"
             },
             {

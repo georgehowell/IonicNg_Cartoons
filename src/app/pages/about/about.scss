@@ -36,20 +36,28 @@ ion-toolbar ion-menu-button {
   opacity: 0;
 }
 
-.about-header .madison {
-  background-image: url("/assets/img/about/madison.jpg");
+.about-header  {
+  background-image: url("/assets/img/about/default.jpg");
+  background-size: contain;
+  background-position-y: -5px;
+}
+.about-header .maths {
+  background-image: url("/assets/img/about/maths.jpg");
 }
 
-.about-header .austin {
-  background-image: url("/assets/img/about/austin.jpg");
+.about-header .english {
+  background-image: url("/assets/img/about/english.jpg");
 }
 
-.about-header .chicago {
-  background-image: url("/assets/img/about/chicago.jpg");
+.about-header .biology {
+  background-image: url("/assets/img/about/biology.jpg");
 }
 
-.about-header .seattle {
-  background-image: url("/assets/img/about/seattle.jpg");
+.about-header .chemistry {
+  background-image: url("/assets/img/about/chemistry.jpg");
+}
+.about-header .physics {
+  background-image: url("/assets/img/about/physics.jpg");
 }
 
 .about-info {

@@ -14,13 +14,18 @@
 
   <div class="about-header">
     <!-- Instead of loading an image each time the select changes, use opacity to transition them -->
-    <div class="about-image madison" [ngStyle]="location === 'madison' && {'opacity': '1'}"></div>
-    <div class="about-image austin" [ngStyle]="location === 'austin' && {'opacity': '1'}"></div>
-    <div class="about-image chicago" [ngStyle]="location === 'chicago' && {'opacity': '1'}"></div>
-    <div class="about-image seattle" [ngStyle]="location === 'seattle' && {'opacity': '1'}"></div>
+    <div class="about-image maths" [ngStyle]="location === 'maths' && {'opacity': '1'}"></div>
+    <div class="about-image english" [ngStyle]="location ===  'english'  && {'opacity': '1'}"></div>
+    <div class="about-image biology" [ngStyle]="location === 'biology' && {'opacity': '1'}"></div>
+    <div class="about-image chemistry" [ngStyle]="location === 'chemistry' && {'opacity': '1'}"></div>
+    <div class="about-image physics" [ngStyle]="location === 'physics' && {'opacity': '1'}"></div>
 
 
-
+    
+    
+    
+    
+    
 
   </div>
 
@@ -32,11 +37,12 @@
 
     <ion-list lines="none">
       <ion-item>
-        <ion-select label="Location" [(ngModel)]="location" [interfaceOptions]="selectOptions">
-          <ion-select-option value="madison">Madison, WI</ion-select-option>
-          <ion-select-option value="austin">Austin, TX</ion-select-option>
-          <ion-select-option value="chicago">Chicago, IL</ion-select-option>
-          <ion-select-option value="seattle">Seattle, WA</ion-select-option>
+        <ion-select label="Subject" [(ngModel)]="location" [interfaceOptions]="selectOptions">
+          <ion-select-option value="maths">Maths</ion-select-option>
+          <ion-select-option value="english">English</ion-select-option>
+          <ion-select-option value="biology">Biology</ion-select-option>
+          <ion-select-option value="chemistry">Chemistry</ion-select-option>
+          <ion-select-option value="physics">Physics</ion-select-option>
         </ion-select>
       </ion-item>
       <ion-item button="true" id="open-date-input">

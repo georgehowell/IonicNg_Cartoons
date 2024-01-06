@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
     {
       title: 'Leaderboard',
       url: '/app/tabs/about',
-      icon: 'podium-outline'
+      icon: 'ribbon-outline'
     }
   ];
   loggedIn = false;
